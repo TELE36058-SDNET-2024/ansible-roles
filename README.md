@@ -20,7 +20,7 @@ templates/: Stores Jinja2 template files, which can be dynamically populated wit
 tests/: This directory can be used for testing your role, often containing inventory and test playbooks.
 vars/: Holds variables that are more specific to the role and have a higher priority than default variables.
 
-##Step 3: Populating the Role
+## Step 3: Populating the Role
 
 Tasks: Begin by defining tasks in the tasks/main.yml file. These tasks are the actions your role will perform on the target machines.
 
